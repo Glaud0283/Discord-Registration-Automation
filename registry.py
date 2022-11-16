@@ -22,7 +22,7 @@ class Questionnaire(ui.Modal, title='Kayıt'):
 
 
 
-class Kayit(commands.Cog):
+class Registry(commands.Cog):
 	'''
 	Cog subclass
 	'''
@@ -66,4 +66,4 @@ class Kayit(commands.Cog):
 
 
 async def setup(bot):
-	await bot.add_cog(Kayit(bot))
+	await bot.add_cog(Registry(bot))
