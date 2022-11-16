@@ -45,7 +45,7 @@ class Registry(commands.Cog):
 		New Member Notification
 		'''
 		await member.guild.get_channel(1033487911250833430).send(
-		 f"{member.mention} Hoş Geldin!\n`/kayıt` komutunu kullanarak sunucuya katılabilirsin."
+		 f"{member.mention} Hoş Geldin!\n`/register` komutunu kullanarak sunucuya katılabilirsin."
 		)
 	@commands.guild_only()
 	@app_commands.command()
