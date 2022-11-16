@@ -7,7 +7,7 @@ class MyBot(commands.Bot):
 	'''
 	def __init__(self):
 		intents = discord.Intents.all()
-		self.initial_extensions = ['kayit',]
+		self.initial_extensions = ['registry',]
 		super().__init__(command_prefix = "!", intents = intents)
 	async def setup_hook(self):
 		for ext in self.initial_extensions:
